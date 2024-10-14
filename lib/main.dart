@@ -17,110 +17,65 @@ class XylophoneApp extends StatelessWidget {
     );
   }
 
+  Expanded buildKey({
+    required Color color,
+    required int number,
+  }) {
+    return Expanded(
+      child: ElevatedButton(
+        onPressed: () => playSound(number),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: color,
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(
+              Radius.circular(
+                .0,
+              ),
+            ),
+          ),
+        ),
+        child: const Text(''),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              ElevatedButton(
-                onPressed: () => playSound(1),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue[100],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.blue,
+                number: 1,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(2),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.orange[400],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.orange,
+                number: 2,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(3),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.pink[300],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.pink,
+                number: 3,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(4),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green[600],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.purple,
+                number: 4,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(5),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.purple[300],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.cyan,
+                number: 5,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(6),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.yellow,
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.yellow,
+                number: 6,
               ),
-              ElevatedButton(
-                onPressed: () => playSound(7),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.cyan[800],
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(
-                      Radius.circular(
-                        .0,
-                      ),
-                    ),
-                  ),
-                ),
-                child: const Text(''),
+              buildKey(
+                color: Colors.green,
+                number: 7,
               ),
             ], // End Of Children
           ),
