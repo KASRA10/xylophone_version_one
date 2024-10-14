@@ -3,6 +3,11 @@ description: "Xylophone Sound App. This is First Try Of creating It and It is Si
 
 publish_to: "none"
 
+homepage: https://github.com/KASRA10/xylophone_version_one.git
+issue_tracker: https://github.com/KASRA10/xylophone_version_one.git
+documentation: https://github.com/KASRA10/xylophone_version_one.git
+repository: https://github.com/KASRA10/xylophone_version_one.git
+
 version: 1.0.0+1
 
 environment:
