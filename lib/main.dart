@@ -19,7 +19,7 @@ class XylophoneApp extends StatelessWidget {
                 final player = AudioPlayer();
                 await player.play(
                   AssetSource(
-                    'lib/assets/note1.wave',
+                    'audio/note1.wav',
                   ),
                 );
               },
