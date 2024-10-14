@@ -1,4 +1,4 @@
-# About
+# 📲 About
 This is a Simple Dice Flutter app. I have tried to bring some functionality to a flutter app for first time. It is my personal flutter practice and small project as **Portfolio** as well.
 
 # [![My Skills](https://skillicons.dev/icons?i=dart)](https://skillicons.dev) What Is Dart?
@@ -7,23 +7,23 @@ art is a general-purpose, object-oriented programming language developed by Goog
 # [![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev) What Is Flutter? 
 Flutter is an open-source UI software development kit (SDK) created by Google, designed for building natively compiled applications for multiple platforms from a single codebase. First introduced in 2015 and officially released in May 2017, Flutter allows developers to create applications for iOS, Android, web, desktop (Windows, macOS, Linux), and Google's Fuchsia operating system.
 
-# [![My Skills](https://skillicons.dev/icons?i=androidstudio)](https://skillicons.dev) What Is Xylophone?
+# 🎹 What Is Xylophone?
 The xylophone is a percussion instrument consisting of a series of tuned wooden bars arranged in a manner similar to piano keys. These bars are struck with mallets to produce sound, making it an idiophone, a category of instruments that generate sound through the vibration of their own material.
 
-# Knowledge
+# 🔬 Knowledge
 You Can Read More About The History Of Xylophone Here:
 - [https://en.wikipedia.org/wiki/Pig_(dice_game)](https://en.wikipedia.org/wiki/Xylophone)
 
-# Refere To
+# 🍪 Refere To
 You Can See A Very Famouse Website That Provide Xylophone Online Here Free To play Here:
 - https://playxylo.com/
 
 # [![My Skills](https://skillicons.dev/icons?i=vscode)](https://skillicons.dev) What Is VS Code?
 Visual Studio Code (VS Code) is a powerful, lightweight source code editor developed by Microsoft. It is designed to facilitate a smooth coding experience across various platforms, including Windows, macOS, and Linux.
 
-# Preview
+# 📷 Preview
 
-# Contribution
+# 🔬 Contribution
 Since it is my training code and actually is it something like my **portfolio**, please do  not use all my codes and UI, and There is no way to contribute to this repository.
 
 # xylophone_version_one
